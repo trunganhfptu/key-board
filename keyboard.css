@@ -1,0 +1,22 @@
+.special,.number,.delete,.alpha,.ultra{
+	height: 50px;
+	width: 50px;
+	font-weight: 900;
+	font-size: 15PX;
+	border-radius: 5px;
+}
+.special-img{
+    height: 30px;
+	width: 50px;
+	font-weight: 400;
+	font-size: 15PX;
+	border-radius: 5px;
+}
+.special-remove{
+    height: 50px;
+	width: 50px;
+    color:aliceblue;
+    font-display: ;
+	font-weight: 900;
+	font-size: 15PX;
+}

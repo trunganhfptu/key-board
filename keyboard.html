@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="keyboard.css"></link>
+    <script src="keyboard.js" defer></script>
+    <title>Keyboard</title>
+</head>
+<body id="prx">
+	<div>
+		<input class="special" id="Escape" type="button" style="height: 50px; width: 119px; margin-top: 5px" name="enter"  value="ESC" onclick="change(), keyboard.display.value+='\n'">
+		<input class="number" id="F1" type="button"  name="exp" value="F1">
+		<input class="number" id="F2" type="button"  name="exp" value="F2">
+		<input class="number" id="F3" type="button" name="exp" value="F3">
+		<input class="number" id="F4" type="button" name="exp" value="F4">
+		<input class="number" id="F5" type="button" name="exp" value="F5">
+		<input class="number" id="F6" type="button" name="exp" value="F6">
+		<input class="number" id="F7" type="button" name="exp" value="F7">
+		<input class="number" id="F8" type="button" name="exp" value="F8">
+		<input class="number" id="F9" type="button" name="exp" value="F9">
+		<input class="number" id="F10" type="button" name="exp" value="F10">
+        <input class="special" id="F11" type="button" name="exp" value="F11">
+		<input class="special" id="F12" type="button" name="exp" value="F12">
+
+	</div>
+	<div>
+		<input class="special" id="Backquote" type="button" style="height: 50px; width: 50px ; margin-top: 5px;"  name="clear" value="`">
+		<input class="number" id="Digit1" type="button"  name="exp" value="1">
+		<input class="number" id="Digit2" type="button"  name="exp" value="2">
+		<input class="number" id="Digit3" type="button" name="exp" value="3">
+		<input class="number" id="Digit4" type="button" name="exp" value="4">
+		<input class="number" id="Digit5" type="button" name="exp" value="5">
+		<input class="number" id="Digit6" type="button" name="exp" value="6">
+		<input class="number" id="Digit7" type="button" name="exp" value="7">
+		<input class="number" id="Digit8" type="button" name="exp" value="8">
+		<input class="number" id="Digit9" type="button" name="exp" value="9">
+		<input class="number" id="Digit0" type="button" name="exp" value="0">
+        <input class="special" id="Equal" type="button" name="exp" value="+">
+		<input class="special" id="Minus" type="button" name="exp" value="-">
+        <input class="special" id="Backspace" type="button"  style="height: 50px; width: 105px; margin-top: 5px" name="back-space" value="Backspace"> 
+        <input class="special" id="Insert" type="button" style="height: 50px; width: 105px; margin-top: 5px" name="exp" value="Insert">
+		<input class="special" id="Home" type="button" style="height: 50px; width: 105px; margin-top: 5px"  name="exp" value="Home">
+        <input class="special" id="PageUp" type="button" name="exp" style="height: 50px; width: 105px; margin-top: 5px"  value="PgUp">
+		<input class="special" id="NumLock" type="button" name="exp" value="nlk">
+        <input class="special" id="NumpadDivide" type="button" name="exp" value="/">
+		<input class="special" id="NumpadMultiply" type="button" name="exp" value="*">
+        <input class="special" id="NumpadSubtract" type="button" name="exp" value="-">
+	</div>
+	<div>
+	  	<input class="special" id="Tab" type="button"  style="height: 50px; width: 70px; margin-top: 5px" name="Tab" value="Tab">
+		<input class="alpha" id="KeyQ" type="button" name="exp" value="Q">
+		<input class="alpha" id="KeyW" type="button" name="exp" value="W">
+		<input class="alpha" id="KeyE" type="button" name="exp" value="E">
+		<input class="alpha" id="KeyR" type="button" name="exp" value="R">
+		<input class="alpha" id="KeyT" type="button" name="exp" value="T">
+		<input class="alpha" id="KeyY" type="button" name="exp" value="Y">
+				  	
+		<input class="alpha" id="KeyU" type="button" name="exp" value="U">
+		<input class="alpha" id="KeyI" type="button" name="exp" value="I">
+		<input class="alpha" id="KeyO" type="button" name="exp" value="O">
+		<input class="alpha" id="KeyP" type="button"  name="exp" value="P">
+		<input class="special" id="BracketLeft" type="button"  name="exp" value="{">
+		<input class="special" id="BracketRight" type="button" name="exp" value="}">
+		<input class="special" id="Backslash" type="button" style="height: 50px; width: 85px; margin-top: 5px" name="exp" value="\">
+        <input class="special" id="Delete" type="button" style="height: 50px; width: 105px; margin-top: 5px"  name="exp" value="Delete">
+		<input class="special" id="End" type="button" style="height: 50px; width: 105px; margin-top: 5px"  name="exp" value="End">
+        <input class="special" id="PageDown" type="button" style="height: 50px; width: 105px; margin-top: 5px"  name="exp" value="PgDwn">
+        <input class="number" id="Numpad7" type="button" name="exp" value="7">
+		<input class="number" id="Numpad8" type="button" name="exp" value="8">
+		<input class="number" id="Numpad9" type="button" name="exp" value="9">
+        <input class="special" id="NumpadAdd" type="button" name="exp" value="+">
+				   
+	</div>
+	<div>
+	  	<input class="ultra" id="CapsLock" type="button" style="height: 50px; width: 90px; margin-top: 5px"  name="" value="CapsLk">
+	  	<input class="alpha" id="KeyA" type="button" name="exp" value="A">
+	  	<input class="alpha" id="KeyS" type="button" name="exp" value="S">
+	  	<input class="alpha" id="KeyD" type="button" name="exp" value="D">
+	  	<input class="alpha" id="KeyF" type="button" name="exp" value="F">
+	  	<input class="alpha" id="KeyG" type="button" name="exp" value="G">
+	  	<input class="alpha" id="KeyH" type="button" name="exp" value="H">
+		  	
+	  	<input class="alpha" id="KeyJ" type="button" name="exp" value="J">
+	  	<input class="alpha" id="KeyK" type="button" name="exp" value="K">
+	  	<input class="alpha" id="KeyL" type="button" name="exp" value="L">
+	    <input class="number" id="Semicolon" type="button"  name=";" value=";">
+	    <input class="number" id="Quote" type="button"  name="'" value="'">
+	    <input class="special" id="Enter" type="button" style="height: 50px; width: 119px; margin-top: 5px" name="enter"  value="Enter">
+        <input class="special-remove" id="delete" type="button" style="height: 50px; width: 105px; margin-top: 5px; visibility: hidden"  name="exp" value="XXX">
+		<input class="special-remove" id="end" type="button" style="height: 50px; width: 105px; margin-top: 5px; visibility: hidden"  name="exp" value="XXX">
+        <input class="special-remove" id="pgdown" type="button" style="height: 50px; width: 105px; margin-top: 5px; visibility: hidden"  name="exp" value="XXX">
+		<input class="number" id="Numpad4" type="button" name="exp" value="4">
+		<input class="number" id="Numpad5" type="button" name="exp" value="5">
+		<input class="number" id="Numpad6" type="button" name="exp" value="6">   
+        <input class="special-remove" id="+" type="button" name="exp" value="XXX" style="visibility: hidden">
+	</div>
+	<div>
+	  	<input class="ultra" id="ShiftLeft" type="button" style="height: 50px; width: 135px; margin-top: 5px" name="exp" value="Shift">
+	  	<input class="alpha" id="KeyZ" type="button" name="exp" value="Z">
+	  	<input class="alpha" id="KeyX" type="button" name="exp" value="X">
+	  	<input class="alpha" id="KeyC" type="button" name="exp" value="C">
+	  	<input class="alpha" id="KeyV" type="button" name="exp" value="V">
+	  	<input class="alpha" id="KeyB" type="button" name="exp" value="B">
+	  	<input class="alpha" id="KeyN" type="button" name="exp" value="N">
+				  	
+	  	<input class="alpha" id="KeyM" type="button" name="exp" value="M">
+	  	<input class="special" id="Comma" type="button" name="exp" value=",">
+	  	<input class="special" id="Period" type="button" name="exp" value=".">
+	    <input class="special" id="Slash" type="button"  name="/" value="/">
+	    <input class="ultra" id="ShiftRight" type="button" style="height: 50px; width: 128px; margin-top: 5px"  name="" value="Shift">
+		<input class="special-remove" id="delete" type="button" style="height: 50px; width: 105px; margin-top: 5px; visibility: hidden"  name="exp" value="XXX" >
+		<input class="special-remove" id="end" type="button" style="height: 50px; width: 105px; margin-top: 5px; visibility: hidden"  name="exp" value="XXX">
+		<input class="special" id="ArrowUp"  type="button" style="height: 50px; width: 105px; margin-top: 5px"  name="ctrl"  value="Up">
+        <input class="number" id="Numpad1" type="button"  name="exp" value="1">
+		<input class="number" id="Numpad2" type="button"  name="exp" value="2">
+		<input class="number" id="Numpad3" type="button" name="exp" value="3">
+        <input class="special" id="NumpadEnter" type="button" name="enter" value="Entr">	    
+	</div>
+	<div>
+		<input class="special" id="ControlLeft" type="button" style="height: 50px; width: 105px; margin-top: 5px"  name="ctrl"  value="ctrl">
+		<img class="special-img" id="MetaLeft" src="./images/win_grey.png" alt="window"/>
+	    <input class="number" id="AltLeft" type="button" style="height: 50px; width: 105px; margin-top: 5px"   name="alt"  value="alt">
+	    <input class="special" id="Space" type="button" style="height: 50px; width: 370px; margin-top: 5px" name="space"  value=space>
+	    <input class="number" id="AltRight" type="button" style="height: 50px; width: 105px; margin-top: 5px"  name="alt"  value=alt>
+        <input class="special-img" id="ContextMenu" type="image" src="./images/menu_grey.png" alt="menu">
+	    <input class="special" id="ControlRight"  type="button" style="height: 50px; width: 105px; margin-top: 5px"  name="ctrl"  value="ctrl">
+        <input class="special" id="ArrowLeft"  type="button" style="height: 50px; width: 105px; margin-top: 5px"  name="ctrl"  value="Left">
+        <input class="special" id="ArrowDown"  type="button" style="height: 50px; width: 105px; margin-top: 5px"  name="ctrl"  value="Down">
+        <input class="special" id="ArrowRight"  type="button" style="height: 50px; width: 105px; margin-top: 5px"  name="ctrl"  value="Right">
+        <input class="number" id="Numpad0" type="button" name="exp" value="0">
+        <input class="special" id="NumpadDecimal" type="button" name="exp" value=".">
+    </div>
+</body>
+</html>
